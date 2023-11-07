@@ -11,3 +11,7 @@ Project made for maplestory's 6th job system (can be used for many other things 
 3. Use the `helper.exe` program to calculate the height of the images.
 4. Create a background image named `bg.png` (recommend using a frame from the 6th job animation, but you are free to use whatever  you wish), the width is a fixed `2000px` and the height is calculated in `step 3`.
 5. Run `main.exe` and you should be able to find a file named `order.png` which is the final image created by the program.
+
+---
+# Example skill order
+![adele_skill_order](https://github.com/ohhimarc/6th-job-order/blob/main/order.png)
