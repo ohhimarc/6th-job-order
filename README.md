@@ -1,10 +1,10 @@
 # 6th Job Order Generator
 
 ---
-Project made for maplestory's 6th job system (can be used for many other things as well). Easily generate good looking infographics for every class in the game.
+### Project made for maplestory's 6th job system (can be used for many other things as well). Easily generate good looking infographics for every class in the game.
 ---
 # Note
-If your antivirus flags the program as a virus it's a false positive, if you dont believe the contents of the executable are safe you can download [Python](https://www.python.org/downloads/) instead and run the script itself.
+### If your antivirus flags the program as a virus it's a false positive, if you dont believe the contents of the executable are safe you can download [Python](https://www.python.org/downloads/) instead and run the script itself.
 ---
 # How to use the program
 1. Download all the image files for the classes skills from [this](https://orangemushroom.net/2023/07/17/kms-ver-1-2-379-maplestory-new-age-6th-job/#6th5) blog post by Max (with a `.png` extension) and place them in a seperate folder along with the images for the hexa stats (they can be found in the repository with the naming scheme of `hs*.png`) and the `helper.exe` and `main.exe` programs.
