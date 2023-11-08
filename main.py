@@ -20,7 +20,7 @@ with open("order.txt", "r") as file:
             images[skill[0]] = Image.open(f"{skill[0]}.png")
 
 for key,value in images.items():
-    images[key] = value.resize((value.width*4, value.height*4), Image.BICUBIC)
+    images[key] = value.resize((value.width*4, value.height*4), Image.NEAREST)
 
 font_file = "INKFREE.TTF"
 FONT_EXTRA_LARGE = ImageFont.truetype(font_file, 120)
@@ -62,7 +62,7 @@ for y in range(cycles_y):
             end=True
             break
 
-        image.alpha_composite(images[order[current_square][0]], (base_x + x * cycle_offset_x, base_y + y * cycle_offset_y))
+        image.alpha_composite(images[order[current_square][0]].convert("RGBA"), (base_x + x * cycle_offset_x, base_y + y * cycle_offset_y))
 
         text_offset = 0
         skill_level = order[current_square][1]
