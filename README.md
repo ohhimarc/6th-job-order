@@ -4,7 +4,7 @@ Project made for maplestory's 6th job system (can be used for many other things 
 
 ---
 # Note
-If your antivirus flags the program as a virus it's a false positive, if you don't believe the contents of the executable are safe you can download [Python](https://www.python.org/downloads/) instead and run the script itself.
+If your antivirus flags the program as a virus it's a false positive, you can make an exception for the file within the software you use, if you don't believe the contents of the executable are safe you can download [Python](https://www.python.org/downloads/) instead and run the script itself.
 
 ---
 # How to use the program
